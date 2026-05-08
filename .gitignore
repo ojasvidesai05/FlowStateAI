@@ -4,12 +4,10 @@ backend/__pycache__/
 backend/.env
 *.pyc
 
-# Node
 mobile/node_modules/
 mobile/.expo/
 mobile/dist/
 
-# Memory (user data — don't commit)
 openclaw-agent/memory/
 
 # OS
