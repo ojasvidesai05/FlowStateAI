@@ -3,22 +3,22 @@ Constraint-Aware Exam Preparation System
 Samsung PRISM × OpenClaw Hackathon 2026 | Theme: Daily Utility & Productivity Platforms
 
 An intelligent Android app that converts exam goals (GATE, JEE, NEET, Placements, UPSC)
-into realistic, constraint-aware, adaptive daily study plans — powered by OpenClaw agent
+into realistic, constraint-aware, adaptive daily study plans powered by OpenClaw agent
 orchestration and Groq LLM.
 
 The Problem
 Students don't fail exams because they lack motivation. They fail because their plans
-don't survive contact with real life — college schedules, unexpected breaks, exam weeks.
+don't survive contact with real life college schedules, unexpected breaks, exam weeks.
 Existing planners assume a perfect world. AI Life Architect assumes chaos and plans for it.
 
  Key Features
-Exam-specific planning — GATE, JEE, NEET, Placements, UPSC milestone templates
-Weak subject prioritisation — weak subjects get 40% more time automatically  
-Constraint-aware scheduling — fits your actual college schedule and free hours
-Adaptive rescheduling — missed tasks automatically moved to buffer slots
-What-if simulation — see how schedule changes affect your exam readiness
-OpenClaw memory — durable per-user memory survives restarts
-Daily heartbeat — 7am briefing + 9pm check-in via Telegram
+Exam-specific planning:GATE, JEE, NEET, Placements, UPSC milestone templates
+Weak subject prioritisation:weak subjects get 40% more time automatically  
+Constraint-aware scheduling:fits your actual college schedule and free hours
+Adaptive rescheduling:missed tasks automatically moved to buffer slots
+What-if simulation:see how schedule changes affect your exam readiness
+OpenClaw memory:durable per-user memory survives restarts
+Daily heartbeat:7am briefing + 9pm check-in via Telegram
 
 Architecture
 
@@ -65,7 +65,7 @@ cd mobile
 npm install
 
 # Edit src/api/client.ts → set BASE_URL to your machine's local IP
-# (run `ipconfig` in PowerShell to find it — looks like 192.168.x.x)
+# (run `ipconfig` in PowerShell to find it looks like 192.168.x.x)
 
 npx expo start
 ```
